@@ -14,4 +14,4 @@ scp -o StrictHostKeyChecking=no ~/dotfiles/config/mark.zsh-theme root@$ip:.oh-my
 # ssh -o StrictHostKeyChecking=no root@$ip sudo apt install -y emacs26
 # ssh -o StrictHostKeyChecking=no root@$ip git clone --depth 1 https://github.com/hlissner/doom-emacs /root/.emacs.d
 # ssh -o StrictHostKeyChecking=no root@$ip /root/.emacs.d/bin/doom install
-vncviewer $ip:5901 -x11cursor
+vncviewer $ip::5901
